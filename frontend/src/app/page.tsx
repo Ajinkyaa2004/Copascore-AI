@@ -39,21 +39,27 @@ export default function Home() {
             <p className="text-zinc-500 text-sm">Predict match outcomes using advanced machine learning models and SHAP analysis.</p>
           </Link>
 
-          <Link href="/simulate" className="group p-8 rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-blue-500 dark:hover:border-blue-500 transition-all hover:shadow-lg">
+          <div className="group p-8 rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all relative opacity-60 cursor-not-allowed">
+            <div className="absolute top-4 right-4 px-3 py-1 bg-yellow-500 text-white text-xs font-bold rounded-full">
+              Coming Soon
+            </div>
             <div className="text-3xl mb-4 flex justify-center text-blue-500">
               <Trophy size={40} />
             </div>
-            <h2 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">League Simulation</h2>
+            <h2 className="text-xl font-bold mb-2">League Simulation</h2>
             <p className="text-zinc-500 text-sm">Simulate entire seasons and view projected league tables based on team strength.</p>
-          </Link>
+          </div>
 
-          <Link href="/players" className="group p-8 rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-green-500 dark:hover:border-green-500 transition-all hover:shadow-lg">
+          <div className="group p-8 rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all relative opacity-60 cursor-not-allowed">
+            <div className="absolute top-4 right-4 px-3 py-1 bg-yellow-500 text-white text-xs font-bold rounded-full">
+              Coming Soon
+            </div>
             <div className="text-3xl mb-4 flex justify-center text-green-500">
               <Dribbble size={40} />
             </div>
-            <h2 className="text-xl font-bold mb-2 group-hover:text-green-600 transition-colors">Player Database</h2>
+            <h2 className="text-xl font-bold mb-2">Player Database</h2>
             <p className="text-zinc-500 text-sm">Search and analyze detailed stats for over 17,000 players from the FIFA database.</p>
-          </Link>
+          </div>
         </div>
       </main>
 
