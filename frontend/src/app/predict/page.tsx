@@ -280,45 +280,6 @@ export default function PredictPage() {
                                 </button>
                             </form>
                         </div>
-
-                        {/* AI Features Card */}
-                        <div className="bg-gradient-to-br from-zinc-900/80 to-zinc-950/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-zinc-800/50">
-                            <h3 className="text-sm font-bold mb-4 flex items-center gap-2">
-                                <Sparkles size={16} className="text-yellow-400" />
-                                AI-Powered Features
-                            </h3>
-                            <div className="space-y-3">
-                                <div className="flex items-start gap-3 p-3 rounded-lg bg-zinc-800/40 border border-zinc-700/30">
-                                    <div className="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                                        <TrendingUp size={14} className="text-red-400" />
-                                    </div>
-                                    <div>
-                                        <h4 className="text-xs font-semibold text-white mb-1">Match Predictions</h4>
-                                        <p className="text-[10px] text-zinc-400 leading-relaxed">Advanced ML models analyze team performance and betting odds</p>
-                                    </div>
-                                </div>
-
-                                <div className="flex items-start gap-3 p-3 rounded-lg bg-zinc-800/40 border border-zinc-700/30">
-                                    <div className="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center flex-shrink-0">
-                                        <Target size={14} className="text-blue-400" />
-                                    </div>
-                                    <div>
-                                        <h4 className="text-xs font-semibold text-white mb-1">Best Bets</h4>
-                                        <p className="text-[10px] text-zinc-400 leading-relaxed">Get AI-recommended betting strategies based on probability analysis</p>
-                                    </div>
-                                </div>
-
-                                <div className="flex items-start gap-3 p-3 rounded-lg bg-zinc-800/40 border border-zinc-700/30">
-                                    <div className="w-8 h-8 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
-                                        <Sparkles size={14} className="text-green-400" />
-                                    </div>
-                                    <div>
-                                        <h4 className="text-xs font-semibold text-white mb-1">Player Analytics</h4>
-                                        <p className="text-[10px] text-zinc-400 leading-relaxed">Deep dive into FIFA player stats and team formations</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     {/* Right Column - Results (2/3 width) */}
