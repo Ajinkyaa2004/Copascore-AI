@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚽ Copascore
+# ⚽ Copascore AI
 
 ### AI-Powered Football Analytics & Prediction Platform
 
@@ -847,3 +847,4 @@ Made with ❤️ by the Copascore Team
 **Give us a ⭐ if you find this project interesting!**
 
 </div>
+
